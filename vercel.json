@@ -2,5 +2,9 @@
   "builds": [
     { "src": "main.py", "use": "@vercel/python" }
   ],
-  "version": 2
+  "version": 2,
+  "install": {
+    "dest": "requirements.txt",
+    "cmd": "pip install -r requirements.txt"
+  }
 }
